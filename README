@@ -1,0 +1,11 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2424
+
+This script allows you to upload the current file via Transmit directly from Vim. For it to work, you need to be working on a file that's tied to a Transmit connection, and this connection must have "DockSend" enabled.
+
+The default key combination is Control + U to upload the active file.
+
+Source is at http://github.com/tmallen/transmit-vim, but for the most part I'll be quick to push updates to this page.
+
+Project Integration
+------------------------
+Take a look at proj.vim, which includes a "docksend" option that uploads files immediately on save: http://www.vim.org/scripts/script.php?script_id=2719
